@@ -4,7 +4,10 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
+import javax.annotation.processing.Generated;
 import java.time.LocalDateTime;
+
+import static jakarta.persistence.GenerationType.IDENTITY;
 
 @Entity
 public class TimeBlock {
@@ -29,7 +32,6 @@ public class TimeBlock {
         this.id = id;
     }
 
-    @Id
     public Long getId() {
         return id;
     }
