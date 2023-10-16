@@ -14,5 +14,8 @@
 - 타이머로 시간 기록 (자유 형식 기록 시)
 - 타임블록의 시간 단위 설정 (5 ~ 30분 단위)
 
+#  제작 환경
+- Spring Boot, JPA, Spring Security
+
 # 참고
 - 아이디어 착안: https://www.youtube.com/watch?v=3Ym3MM628bk
