@@ -4,13 +4,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class UserController {
+public class UsersResource {
 
-    public UserController(UserRepository userRepository) {
-        this.userRepository = userRepository;
+    public UsersResource(UsersRepository usersRepository) {
+        this.usersRepository = usersRepository;
     }
 
-    private UserRepository userRepository;
+    private UsersRepository usersRepository;
 
     @GetMapping("/")
     String helloWorld(){
